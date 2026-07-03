@@ -29,11 +29,7 @@ function Icons() {
           <Col md="12">
             <Card className="demo-icons">
               <CardHeader>
-                <CardTitle tag="h5">100 Awesome Nucleo Icons</CardTitle>
-                <p className="card-category">
-                  Handcrafted by our friends from{" "}
-                  <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a>
-                </p>
+                <CardTitle tag="h5">Iconos</CardTitle>
               </CardHeader>
               <CardBody className="all-icons">
                 <div id="icons-wrapper">
