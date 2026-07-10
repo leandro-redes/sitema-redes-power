@@ -3,6 +3,7 @@ import IngresosSistemas from "views/ingresos-sistemas";
 import IngresosLaboratorio from "views/ingresos-laboratorio";
 import NotFound from "views/notfound";
 import Icons from "views/icons";
+import Proyectos from "views/proyectos";
 
 var routes = [
   {
@@ -10,6 +11,12 @@ var routes = [
     name: "Inicio",
     icon: "nc-icon nc-shop",
     component: <Inicio />,
+    layout: "/admin",
+  },{
+    path: "/proyectos",
+    name: "Proyectos",
+    icon: "nc-icon nc-vector",
+    component: <Proyectos />,
     layout: "/admin",
   },{
     path: "/ingresos-sistemas",
